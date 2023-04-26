@@ -10,6 +10,7 @@ The performance of the model will be evaluated using metrics such as accuracy, p
 
 Overall, the goal of this project is to develop a machine learning model that can accurately classify speech signals as either human or synthetic, and to gain insights into the underlying features that contribute to this classification. The resulting model could have applications in fields such as speech recognition, natural language processing, and voice authentication, among others.
 
+--- 
 
 ## Datasets used
 
@@ -26,6 +27,8 @@ Lastly,The LibriTTS corpus is a collection of speech recordings and accompanying
 Each recording in the dataset is accompanied by metadata such as the speaker's gender, age, and accent, as well as information about the book and chapter from which the recording was taken. The dataset also includes precomputed features such as Mel-spectrograms and pitch contours, as well as a variety of other metadata such as language and accent labels.
 
 A deeper explanation of these datasets is provided within '00. Project Introduction'.
+
+--- 
 
 ## Data Dictionary
 
@@ -63,6 +66,9 @@ A deeper explanation of these datasets is provided within '00. Project Introduct
 | audio_path    | File path to the audio file in WAV format                    |
 | normalized    | Binary indicator of whether the audio has been normalized   |
 | split         | Training, validation, or test split of the data              |
+
+--- 
+--- 
 
 ### Resources
 
